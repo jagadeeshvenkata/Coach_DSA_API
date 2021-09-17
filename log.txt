@@ -1,0 +1,72 @@
+Request method:	POST
+Request URI:	https://dev-tapestry.litmus7.com/proxy/sfcc/customers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJfdiI6IjEiLCJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfdiI6IjEiLCJleHAiOjE2MzEyMDYyMzAsImlhdCI6MTYzMTIwNDQzMCwiaXNzIjoiM2RjMTQzM2QtYTU1Mi00ODA2LTk3YjgtM2ZjZDBkYzBiNzk3Iiwic3ViIjoie1wiX3ZcIjpcIjFcIixcImN1c3RvbWVyX2luZm9cIjp7XCJjdXN0b21lcl9pZFwiOlwiYWJjZ05tYTNNUVp5VTdWSUVlTWh6eEZuVHRcIixcImd1ZXN0XCI6dHJ1ZSxcInZpc2l0X2lkXCI6XCI4ZDc5YmY0NDU0ZGI4N2M0NjQ3OGQyNTc3YVwifX0ifQ.dl8XgldAVo8SGRDrrSAdnbD_tnRnfYwIrohjhsPW78JgTif2kukQqnB74RgKHRx6U5CTBee8ktTVwqnmtguRT2NgHaVhQHTnVLLE94I_Z5mqvl8ec_Vmpo0hiaCxjb87OOOBu7mPdyzXJB-2_NKcleOc7SjZiwTpUgUF3S3m1Smkr420-h9gsnUha1McEU3h7feP4McXIaoxYjgJpwaQ4e4MLbPgryg3twtoiRgIkPJ6Y2NpG_mOX_gOmYm_m7hJzKuY4zU90SGc-GYkbBKfRPK3GthTr0LNXVsknydirpsZDI1hlBjrCxNz689-ogulHlo8off7PDO2VquXNB_V_LjCgb-uV2mnTK4DqTsCGJQD222x8XFiER2jGNkT7ESf6h0oBMECPKh_kp90uxy_dk_2yEjnvWV1qcPTol5xK--Qqpn7NSD0pn6TzOv0azwbTwNoi-MCryDl4_KaQfk24XR_1zpGI4hMGQT-1_L7GRxpEy3lFH01PlwMgNH9RDMW6PrassYTSPAp7lXPGASpVfjb286A6zDtWMEEhjbtM4wTGj82JmRMKMZAni_zA9SK
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "qwerty123",
+    "customer": {
+        "login": "Coach20210909T215030.146@yopmail.com",
+        "email": "Coach20210909T215030.146@yopmail.com",
+        "last_name": "hb",
+        "first_name": "hbhb",
+        "gender": 2,
+        "c_brand": "Coach",
+        "c_emailOptIn": 1,
+        "c_directMailOptIn": 2,
+        "c_homePhoneOptIn": 2,
+        "c_marketingSource": "OTL_LSS_REG",
+        "c_messageType": 1,
+        "c_mobilePhoneOptIn": 2,
+        "c_officePhoneOptIn": 2,
+        "c_smsOptIn": 2,
+        "c_sourceCode": "DWEOS",
+        "c_systemCountryCode": "US",
+        "c_customerGroup": "ACTIVEDW",
+        "c_lastModifiedDate": "2020-08-06T07:39:14.000Z",
+        "c_membershipID": "",
+        "c_preferredStore": ""
+    }
+}
+HTTP/1.1 200 OK
+Date: Thu, 09 Sep 2021 16:20:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 140
+Connection: keep-alive
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: X-Requested-With,content-type
+access-control-allow-credentials: true
+etag: W/"8c-R08T/oZkGkp1HIBg50T3GfXGdfo"
+x-envoy-upstream-service-time: 59
+content-security-policy: base-uri 'self'; frame-ancestors 'none'; default-src 'self' blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://aframe.io https://cdn.rawgit.com https://apps.8thwall.com https://cdn.8thwall.com https://cdnjs.cloudflare.com https://ar.coach.com https://ssl.google-analytics.com https://cdn.optimizely.com https://cdn.optimizely.com https://www.googletagmanager.com https://webrtc.github.io https://cdn.jsdelivr.net https://cdn.quantummetric.com https://www.google-analytics.com; script-src-elem 'self' 'unsafe-inline' 'unsafe-eval' https://aframe.io https://cdn.rawgit.com https://apps.8thwall.com https://cdn.8thwall.com https://cdnjs.cloudflare.com https://ar.coach.com https://ssl.google-analytics.com https://cdn.optimizely.com https://cdn.optimizely.com https://www.googletagmanager.com https://webrtc.github.io https://cdn.jsdelivr.net https://cdn.quantummetric.com https://www.google-analytics.com; object-src 'none'; style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net; style-src-elem 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net; img-src 'self' data: blob: https://dj8l60c1u7xmf.cloudfront.net https://cdn.8thwall.com https://www.googletagmanager.com https://s7d2.scene7.com https://tapestry-cdn-files.s3.amazonaws.com https://img1.cohimg.net https://www.google-analytics.com; media-src 'self'; frame-src 'self' https://*.cdn.optimizely.com; worker-src 'self' blob:; font-src 'self' https://cdn.8thwall.com https://p.typekit.net  https://use.typekit.net; connect-src 'self' data: https://apps.8thwall.com https://rl.quantummetric.com https://tapestry-sync.quantummetric.com https://scandk1.scandit.com https://cdn.jsdelivr.net https://rum.optimizely.com https://logx.optimizely.com https://tapestry-app.quantummetric.com https://www.google-analytics.com https://stats.g.doubleclick.net; manifest-src 'self' data:; form-action 'self';
+strict-transport-security: max-age=31536000
+x-permitted-cross-domain-policies: none
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+referrer-policy: origin
+x-download-options: noopen
+x-dns-prefetch-control: off
+feature-policy: none
+cache-control: no-store
+pragma: no-cache
+server: x-server
+
+{
+    "_v": "21.3",
+    "fault": {
+        "arguments": {
+            "siteId": "undefined"
+        },
+        "type": "SiteNotFoundException",
+        "message": "No site with ID 'undefined' was found."
+    }
+}
